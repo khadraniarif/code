@@ -1,0 +1,33 @@
+#tabs {
+	.container {
+		padding: 20px;
+		.row {
+			border: 1px solid #CCC;
+			background: #000;
+			color: #FFF;
+		}
+		
+		.tabs-container {
+			display: inline-block;
+			padding-left: 10px;
+			cursor:pointer;
+			h2 {
+				padding-right: 10px;
+			}
+		}
+		
+		#results {
+			.row {
+				background: #FFF !important;
+				color: #333;
+			}
+			
+			.error {
+				text-align: center;
+				color: #FF0000;
+				font-weight: bold;
+				padding: 20px;
+			}
+		}
+	}
+}
